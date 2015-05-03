@@ -1,0 +1,32 @@
+[console_scripts]
+hamper = hamper.commander:main
+
+[hamperbot.plugins]
+help = hamper.plugins.help:Help
+quotes = hamper.plugins.quotes:Quotes
+tinyurl = hamper.plugins.tinyurl:Tinyurl
+sed = hamper.plugins.commands:Sed
+seen = hamper.plugins.seen:Seen
+yesno = hamper.plugins.questions:YesNoPlugin
+quit = hamper.plugins.commands:Quit
+dice = hamper.plugins.commands:Dice
+suggest = hamper.plugins.suggest:Suggest
+lmgtfy = hamper.plugins.commands:LetMeGoogleThatForYou
+rot13 = hamper.plugins.commands:Rot13
+lookup = hamper.plugins.dictionary:Lookup
+factoids = hamper.plugins.factoids:Factoids
+friendly = hamper.plugins.friendly:Friendly
+remindme = hamper.plugins.remindme:Reminder
+whatwasthat = hamper.plugins.whatwasthat:WhatWasThat
+bitly = hamper.plugins.bitly:Bitly
+ponies = hamper.plugins.friendly:OmgPonies
+channel_utils = hamper.plugins.channel_utils:ChannelUtils
+name = hamper.plugins.name:Name
+timez = hamper.plugins.timez:Timez
+roulette = hamper.plugins.roulette:Roulette
+flip = hamper.plugins.flip:Flip
+choices = hamper.plugins.questions:ChoicesPlugin
+karma = hamper.plugins.karma:Karma
+goodbye = hamper.plugins.goodbye:GoodBye
+botsnack = hamper.plugins.friendly:BotSnack
+
